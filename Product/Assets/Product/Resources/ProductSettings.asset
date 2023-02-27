@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1531310573, guid: 5ed5fc990562640bca475bb90d769b51, type: 3}
+  m_Name: ProductSettings
+  m_EditorClassIdentifier: 
+  productTextureInfo:
+  - targetId: energy1
+    targetAssetPath: Assets/Product/Resources/product_shopitem_energy01.png
+  - targetId: energy2
+    targetAssetPath: Assets/Product/Resources/product_shopitem_energy02.png
+  - targetId: energy3
+    targetAssetPath: Assets/Product/Resources/product_shopitem_energy03.png
+  - targetId: energy4
+    targetAssetPath: Assets/Product/Resources/product_shopitem_energy04.png
+  - targetId: note1
+    targetAssetPath: Assets/Product/Resources/product_note1.png
+  - targetId: potion_package
+    targetAssetPath: Assets/Product/Resources/product_potion_package1.png
+  - targetId: potion1
+    targetAssetPath: Assets/Product/Resources/product_potion1.png
+  - targetId: potion2
+    targetAssetPath: Assets/Product/Resources/product_potion2.png
+  - targetId: potion3
+    targetAssetPath: Assets/Product/Resources/product_potion3.png
+  - targetId: potion4
+    targetAssetPath: Assets/Product/Resources/product_potion4.png
+  currencyTextureInfo:
+  - targetId: energy
+    targetAssetPath: Assets/Product/Resources/currency_energy.png
+  - targetId: star
+    targetAssetPath: Assets/Product/Resources/currency_star.png
