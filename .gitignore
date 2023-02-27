@@ -58,3 +58,18 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Zepeto Specific
+/[Nn]ode_modules/
+/[Uu]serSettings/
+/[Bb]uildLogs/
+/.vscode/
+/.idea/
+/Assets/_Temp*
+/Assets/__INITIALIZER*
+/Assets/__MANIFEST*
+/Assets/__TEMP_MANIFEST__*
+/Assets/Samples*
+*.patch
+.DS_Store
+package-lock.json
+ProjectSettings/EditorBuildSettings.asset
