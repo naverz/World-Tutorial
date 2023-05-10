@@ -765,7 +765,7 @@ declare module "ZEPETO.Multiplay" {
         onTick?(deltaTime: number): void;
         onMessage<T = any>(messageType: '*' | string | number, callback: (client: SandboxPlayer, message: T) => void): void;
         broadcast(type: string | number, message?: any, options?: IBroadcastOptions): void;
-        loadPlayer?(sessionId: string): SandboxPlayer;
+        loadPlayer(sessionId: string): SandboxPlayer | undefined;
         setPrivate(isPrivate: boolean): Promise<void>;
         kick(client: SandboxPlayer, reason?: string): Promise<void>;
     }
@@ -994,6 +994,22 @@ declare module 'ZEPETO.Multiplay.Leaderboard' {
     const Leaderboard: Leaderboard;
 }
 
+
+declare module "ZEPETO.Multiplay.Messaging" {
+    const enum MessagingError {
+        Unknown = -1,
+        ParameterError,
+        NetworkError,
+    }
+    interface Subscriber {
+        disconnect(): void;
+    }
+    interface Messaging {
+        publish<T>(topic: string, payload: T): void;
+        subscribe<T>(topic: string, callback: (topic: string, data: T, sent: number) => void): Subscriber;
+    }
+    const Messaging: Messaging;
+}
 
 declare module "ZEPETO.Multiplay.Product" {
     const enum ProductError {

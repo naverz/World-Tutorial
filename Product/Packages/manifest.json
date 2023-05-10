@@ -10,7 +10,7 @@
     "com.unity.toolchain.macos-x86_64-linux-x86_64": "2.0.4",
     "com.unity.ugui": "1.0.0",
     "zepeto.product": "1.0.0-preview",
-    "zepeto.world": "1.12.2",
+    "zepeto.world": "1.16.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -46,7 +46,7 @@
   "scopedRegistries": [
     {
       "name": "ZEPETO",
-      "url": "https://rc.upm.zepeto.run",
+      "url": "https://upm.zepeto.run",
       "scopes": [
         "zepeto"
       ]
