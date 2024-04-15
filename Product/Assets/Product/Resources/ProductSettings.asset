@@ -33,8 +33,4 @@ MonoBehaviour:
     targetAssetPath: Assets/Product/Resources/product_potion3.png
   - targetId: potion4
     targetAssetPath: Assets/Product/Resources/product_potion4.png
-  currencyTextureInfo:
-  - targetId: energy
-    targetAssetPath: Assets/Product/Resources/currency_energy.png
-  - targetId: star
-    targetAssetPath: Assets/Product/Resources/currency_star.png
+  currencyTextureInfo: []
